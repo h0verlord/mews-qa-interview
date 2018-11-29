@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mews-qa-interview", "mews-qa-interview\mews-qa-interview.csproj", "{A7ED3CF8-92DC-4DB1-B70A-EEA3F5265510}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MewsQaInterview", "mews-qa-interview\MewsQaInterview.csproj", "{A7ED3CF8-92DC-4DB1-B70A-EEA3F5265510}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

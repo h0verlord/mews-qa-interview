@@ -1,5 +1,5 @@
 ﻿
-namespace mews_qa_interview.Objects
+namespace MewsQaInterview.Objects
 {
 
     public class RequestObject

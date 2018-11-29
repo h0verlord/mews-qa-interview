@@ -1,10 +1,10 @@
 ﻿using NUnit.Framework;
-using mews_qa_interview.Objects;
-using mews_qa_interview.Objects.Response;
+using MewsQaInterview.Objects;
+using MewsQaInterview.Objects.Response;
 using System.Linq;
 using System.Net;
 
-namespace mews_qa_interview.Tests
+namespace MewsQaInterview.Tests
 {
     class ConfigurationTests
     {
@@ -42,12 +42,10 @@ namespace mews_qa_interview.Tests
         {
             /*
              * Create a Post Request on GetConfig, without tokens.
-             * Assert the 401 is returned.
-             */
-
-            var requestJson = new object();
-            var response = CreateRequest.Post<UnauthorizedError>("config", requestJson,
-                HttpStatusCode.Unauthorized);
+             * Assert the 400 is returned.
+             */            
+            var response = CreateRequest.Post<UnauthorizedError>("config", null,
+                HttpStatusCode.BadRequest);
         }
     }
 }

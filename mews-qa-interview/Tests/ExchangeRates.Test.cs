@@ -1,13 +1,9 @@
-﻿using mews_qa_interview.Objects;
-using mews_qa_interview.Objects.Response;
+﻿using MewsQaInterview.Objects;
+using MewsQaInterview.Objects.Response;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace mews_qa_interview.Tests
+namespace MewsQaInterview.Tests
 {
     class ExchangeRatesTest
     {
