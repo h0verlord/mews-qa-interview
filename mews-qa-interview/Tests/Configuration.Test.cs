@@ -38,7 +38,7 @@ namespace MewsQaInterview.Tests
         }
 
         [Test]
-        public void When_GetConfigInvalid_Expect_401()
+        public void When_GetConfigInvalid_Expect_400()
         {
             /*
              * Create a Post Request on GetConfig, without tokens.
